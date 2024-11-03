@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    background-color: lightgreen ;
+}
+
+.loginPage{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.input{
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+
+.btn:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
